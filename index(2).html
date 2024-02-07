@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles(2).css">
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <h1>Your Name</h1>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="container">
+            <div class="intro">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Web Developer | Creative Thinker | Problem Solver</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I am a passionate web developer with expertise in...</p>
+            <!-- Add more information about yourself here -->
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card" onclick="openModal('Project 1', 'Description of Project 1.')">
+                <h3>Project 1</h3>
+            </div>
+            <div class="project-card" onclick="openModal('Project 2', 'Description of Project 2.')">
+                <h3>Project 2</h3>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me via email at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

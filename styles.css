@@ -1,0 +1,345 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(231, 222, 222);
+    margin-top: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.home {
+  display: flex;
+  background-image: url('../PORTFOLIO\ RESUME/img3.jpg');
+  background-size:cover;
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  color: rgb(16, 16, 16);
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0;
+}
+
+.home .max-width {
+  margin: auto 0 auto 40px;
+}
+
+.home .max-width .home-content{
+  padding-top: 100px;
+}
+
+.home .home-content .text-1 {
+  font-size: 30px;
+}
+
+.home .home-content .text-2 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+  color: #2d2f2c;
+  font-weight: 500;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #b27a7a;
+    max-width: 1450px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 25px; 
+}
+header img{
+  float: left;
+  height: 130px;
+  width: 130px;;
+  border-radius: 50px;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+ img{
+    height: 360px;
+    width: 330px;
+    display: block;
+    float: right;
+    max-height: 100%;
+    max-width: 200%;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-right: 50px;
+} 
+
+header h1 {
+    margin: 0;
+}
+.header .navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 20px 0;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 0.3s ease;
+  align-items: center;
+  position: center;
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .menu ul{
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 30px;
+  position: relative;
+}
+
+.navbar .menu a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.navbar .menu a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+.navbar .menu li a:hover {
+  color: #181918;
+}
+
+.navbar.sticky .menu li a:hover {
+  color: white;
+}
+.menu-btn{
+  color: rgb(235, 224, 224);
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.resume-section{
+  text-decoration: none;
+  color: #181918;
+  max-width: 270px;
+  max-height: 100px;
+}
+.resume-section a{
+  color: #161414;
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.about-me,
+.education,
+.skills,
+.contact {
+    padding: 30px 0;
+}
+.about-me{
+    font-size: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #decece;
+    margin-top: 30px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgb(150, 146, 146);
+}
+.about-me p{
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #181918;
+}
+.about{ 
+  display:inline;
+  text-align: center;
+  align-items: center;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.about h2{
+  color: #10141a;
+}
+.education {
+    font-size: 20px;
+    color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #decece;
+    margin-top: 30px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgb(150, 146, 146);    
+}
+.education p{
+  font-size: 19px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #10141a;
+}
+.educationU{
+  display:inline;
+  text-align: center;
+  align-items: center;
+  font-size: 22px;
+}
+.educationU h2{
+  color: #10141a;
+}
+.skills{
+  max-width: 1000px;
+    margin: 0 auto;
+    background-color: #decece;
+    margin-top: 30px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgb(150, 146, 146);
+}
+.skills .content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #37517e;
+  font-family: "Poppins", sans-serif;
+}
+
+.skills .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills .content ul li {
+  padding-bottom: 10px;
+}
+
+.skills .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #64b0d3;
+}
+
+.skills .content p:last-child {
+  margin-bottom: 0;
+}
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #10141a;
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.skills .progress-bar-wrap {
+  background: #e8edf5;
+  height: 10px;
+}
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #4668a2;
+}
+.skl{
+  display:inline;
+  text-align: center;
+  align-items: center;
+  font-size: 22px;
+  color: black;
+}
+.skl h2{ 
+ color: #10141a;
+} 
+.fa {
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contact{
+  max-width: 1000px;
+    margin: 0 auto;
+    background-color: #decece;
+    margin-top: 30px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 20px rgb(150, 146, 146);
+}
+.contact_me{
+  display:inline;
+  text-align: center;
+  align-items: center;
+  font-size: 22px;
+  color:#633838;
+}
+.contact h3{
+  margin-right: 50px; 
+}
+.contact_me h2{
+  color: #161414;
+}
+.contact p{
+  color: #633838;
+  font-size: 19px ;
+}
+section h2 {
+    color: #333;
+}
+
+footer {
+    font-size: 20PX;
+    color: #161414;
+    text-align: center;
+    padding: 10px 0;
+}
