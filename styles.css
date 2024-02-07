@@ -10,7 +10,7 @@ body {
 }
 .home {
   display: flex;
-  background-image: url('../PORTFOLIO\ RESUME/img3.jpg');
+  background-image: url('./img3.jpg');
   background-size:cover;
   background-size: 50%;
   background-position: center;
